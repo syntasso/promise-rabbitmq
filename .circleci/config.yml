@@ -89,6 +89,7 @@ jobs:
                 name: GHCR Push
                 command: |
                   echo "$GITHUB_TOKEN" | docker login ghcr.io -u syntassodev --password-stdin
+
                   ./internal/scripts/pipeline-image push
             - run:
                 name: Verify package is public

@@ -12,7 +12,7 @@ Check the CRD documentation for more information.
 To install, run the following command while targeting your Platform cluster:
 
 ```
-kubectl apply -f https://raw.githubusercontent.com/syntasso/kratix-marketplace/main/rabbitmq/promise.yaml
+kubectl apply -f https://raw.githubusercontent.com/syntasso/promise-rabbitmq/main/promise.yaml
 ```
 
 This will install the RabbitMQ Operator on all the Worker cluster. To verify
@@ -27,7 +27,7 @@ rabbitmq-cluster-operator   1/1     1            1           1m
 
 To create a RabbitMQ cluster, run the following command while targeting the Platform cluster:
 ```
-kubectl apply -f https://raw.githubusercontent.com/syntasso/kratix-marketplace/main/rabbitmq/resource-request.yaml
+kubectl apply -f https://raw.githubusercontent.com/syntasso/promise-rabbitmq/main/resource-request.yaml
 ```
 
 To verify that the RabbitMQ cluster is created, run the following command while targeting the Worker cluster:
