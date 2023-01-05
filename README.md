@@ -2,11 +2,11 @@
 
 [![CircleCI Build Badge](https://circleci.com/gh/syntasso/promise-rabbitmq.svg?style=shield)](https://app.circleci.com/pipelines/github/syntasso/promise-rabbitmq?branch=main)
 
-This Promise provides RabbitMQ-as-a-Service. The Promise has 3 fields:
+This Promise provides RabbitMQ-as-a-Service. The Promise has 2 fields:
 * `.spec.env`
 * `.spec.plugins`
 
-Check the CRD documentation for more information.
+Check the [CRD documentation](https://www.rabbitmq.com/kubernetes/operator/using-operator.html#configure) for more information.
 
 
 To install, run the following command while targeting your Platform cluster:
