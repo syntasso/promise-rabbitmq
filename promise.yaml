@@ -5026,5 +5026,5 @@ spec:
         served: true
         storage: true
   xaasRequestPipeline:
-  - ghcr.io/syntasso/kratix-marketplace/rabbitmq-request-pipeline:v0.1.0
+  - ghcr.io/syntasso/promise-rabbitmq/rabbitmq-request-pipeline:v0.1.0
 status: {}
