@@ -9,6 +9,8 @@ urls=(
 mkdir -p $PWD/resources
 rm -rf $PWD/resources/*
 
+mkdir -p $PWD/configure-pipeline/dependencies
+
 for url in "${urls[@]}"; do
-    curl -sL $url | sed 's/rabbitmq-system/default/g' > $PWD/resources/$(basename $url)
+    curl -sL $url | sed 's/rabbitmq-system/default/g' > $PWD/configure-pipeline/dependencies/$(basename $url)
 done
